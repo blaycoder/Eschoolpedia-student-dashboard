@@ -106,10 +106,6 @@ button {
     justify-content: center;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
 .wrapper {
     display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -117,6 +113,8 @@ body {
    grid-gap: 0.3em;
    grid-auto-rows: minmax(100px, auto);
 }
+
+
 
 .welcome {
     grid-row: 1;
@@ -183,7 +181,7 @@ p{
     line-height: 1.5em;
 }
 
-img {
+.welcome img {
     width: 200px;
     display: block;
     text-align: right;
